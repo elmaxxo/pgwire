@@ -53,6 +53,7 @@ lazy-regex = { version = "3.3", default-features = false, features = ["lite"] }
 ryu = "1"
 ## config
 percent-encoding = { version = "2.0", optional = true }
+smol_str = "0.3.2"
 
 [features]
 default = ["server-api-aws-lc-rs", "pg-ext-types"]
